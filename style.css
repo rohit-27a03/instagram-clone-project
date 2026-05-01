@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 'Helvetica Neue', sans-serif;
+}
+.instagram{
+    display:flex;
+}
+
+#logo{
+    font-family: "Lobster", sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+.left_bar{
+    height: 100vh;
+    width: 15%;
+    border-right:1px solid rgb(48, 47, 47);
+    
+    /* background-color: aquamarine; */
+}
+.left_bar .items{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px;
+    margin: 2px;
+    /* margin-top: 2px; */
+
+
+}
+.left_bar .items .material-symbols-outlined{
+    margin:2px;
+}
+
+
+
+
+
+/* mid post section */
+
+
+
+.post{
+    height: 100vh;
+    width: 60%;
+    /* background-color:rgb(64, 117, 117); */
+}
+
+/* story  */
+.post .story .items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+
+}
+
+.post .story{
+    display: flex;
+}
+
+.post .story .items .profile{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:12px;
+    font-weight: 200;
+    gap:8px;
+    
+    
+}
+.post .story .items .profile .img{
+    border-radius: 50%;
+    padding: 2px;
+    background-image: conic-gradient(#feda75, #fa7e1e, #d62976, #4f5bd5, #feda75);
+    display: inline-block;
+    
+}
+.post .story .items .profile .img img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    object-fit:cover ;
+    display: block;
+    padding: 2px;
+}
+/* main post section */
+
+
+
+.post .main_post{
+    height: 75vh;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+
+}
+.post .main_post .profile{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 10px;
+    margin:10px;
+    font-size:15px;
+    padding: 2px;
+    
+    
+}
+
+.post .main_post .profile img{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    padding:2px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-image: conic-gradient(#feda75, #fa7e1e, #d62976, #4f5bd5, #feda75);
+    object-fit:cover ;
+    
+}
+
+.post .main_post .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.post .main_post .img img{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.post .main_post .engagement{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.post .main_post .engagement .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.post .main_post .engagement .material-symbols-outlined{
+    font-size: 1.8rem;
+}
+
+
+.suggestion_items{
+    height: 100vh;
+    width: 25%;
+    
+    /* background-color: rgb(203, 139, 60); */
+}
+
+.suggestion_items .suggestion .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.suggestion_items .suggestion .profile .img img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.suggestion_items .suggestion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+}
+.suggestion_items .suggestion .follow{
+
+color: rgb(134, 134, 242);
+}
+.suggestion_items .suggestion .s{
+    color: rgb(245, 245, 245);
+}
+
+
+.text p{
+    color: rgb(134, 133, 133);
+}
+
+
+/* end */
